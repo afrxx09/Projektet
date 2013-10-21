@@ -1,22 +1,23 @@
-
-# Projektnamn här
+Portfolio / CV
 Projektmedlemmar: 
-[tstjostudent](https://github.com/tstjostudent), [xx222yy](https://github.com/tstjostudent), [yy222xx](https://github.com/tstjostudent)
+Andreas Fridlund [afrxx09](https://github.com/afrxx09)
 
-*Lista alla medlemmar ovan. Ni behöver inte ange fullständiga namn utan länk till GitHub-konto räcker.*
-
-[Exekverbar version av projektet](http://tstjostudent.github.io/Projektet)
-
-*Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
+[Exekverbar version av projektet](http://afrxx09.github.io/Projektet)
 
 ## Beskrivning av projektet
-*En kort och koncis beskrivning av projektet. Vad är det ni vill skapa? Varför? Hur fick ni idén?*
+Målet är att skapa grunden till en portfolio som kan användas som CV i framtiden. Det är något jag har funderat på att göra under en tid och detta projektet är ett bra tillfälle att göra grunden till en sådan. Jag kallar det för "en grund till" för jag begränsar projektet till att bara innehålla statisk information som presenteras. I framtiden vill jag lägga in interaktiva delar för att få portfolion att sticka ut, men det finns det inte tid till i detta projektet samt att det sträcker sig utanför vad denna kursen lär ut.
+Det ska finnas en startsida, en presentation av mig och en portfolio där jag visar upp saker jag gjort. Den ska vara tvåspråkig(svenska och engelska) då jag inte ser det som en omöjlighet att börja jobba utomlands i framtiden.
+Jag har aldrig jobbat med bootstrap innan så, detta blir också ett bra tillfälle att prova på det.
 
 ## Tekniker
-*Vilka tekniker kommer att användas? Kommer ni att använda några ramverk? CSS-preprocessors?*
+html
+css
+javascript
+bootstrap
+jQuery
 
 ## Begränsningar
-*Eventuella begränsningar i projektet. Kanske kommer viss funktionalitet att fejkas eftersom ni inte besitter kunskaper att skapa detta ännu?*
+Jag kommer fokusera på layout, presentation att göra den responsiv och begränsa detaljerna i själva innehållet. Så istället för att lägga tid på att skriva texter som förklarar mina projekt och min egen rpesentation kommer jag lägga in Lore Ipsum på många ställen.
 
 ## Förstudier
 *Eventuellt redan existerande prototyper, användarundersökningar etc. Kanske gör ni om en befintlig webbplats? Beskriv då det här.*
