@@ -1,8 +1,7 @@
-Portfolio / CV
+#Portfolio / CV
 
-Projektmedlemmar:
+##Projektmedlemmar
 Andreas Fridlund [afrxx09](https://github.com/afrxx09)
-
 [Exekverbar version av projektet](http://afrxx09.github.io/Projektet/index.html)
 
 ## Beskrivning av projektet
@@ -11,11 +10,11 @@ Det ska finnas en startsida, en presentation av mig och en portfolio där jag vi
 Jag har aldrig jobbat med bootstrap innan så, detta blir också ett bra tillfälle att prova på det.
 
 ## Tekniker
-html
-css
-javascript
-bootstrap
-jQuery
+* html
+* css
+* javascript
+* bootstrap
+* jQuery
 
 ## Begränsningar
 Jag kommer fokusera på layout, presentation att göra den responsiv och begränsa detaljerna i själva innehållet. Så istället för att lägga tid på att skriva texter som förklarar mina projekt och min egen rpesentation kommer jag lägga in Lore Ipsum på många ställen.
@@ -28,6 +27,6 @@ Jag kommer fokusera på layout, presentation att göra den responsiv och begrän
 
 ## Layout / design
 Utkast på strukturen:
-[Startsidan full bredd](http://afrxx09.github.io/Projektet/doc/layout_startsida_full.png)
-[Undersida full bredd](http://afrxx09.github.io/Projektet/doc/layout_undersida_full.png)
-[Startsidan mobil-version](http://afrxx09.github.io/Projektet/doc/layout_startsida_mobil.png)
+* [Startsidan full bredd](http://afrxx09.github.io/Projektet/doc/layout_startsida_full.png)
+* [Undersida full bredd](http://afrxx09.github.io/Projektet/doc/layout_undersida_full.png)
+* [Startsidan mobil-version](http://afrxx09.github.io/Projektet/doc/layout_startsida_mobil.png)
