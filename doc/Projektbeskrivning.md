@@ -5,9 +5,15 @@ Andreas Fridlund [afrxx09](https://github.com/afrxx09)
 [Exekverbar version av projektet](http://afrxx09.github.io/Projektet/index.html)
 
 ## Beskrivning av projektet
-Målet är att skapa grunden till en portfolio som kan användas som CV i framtiden. Det är något jag har funderat på att göra under en tid och detta projektet är ett bra tillfälle att göra grunden till en sådan. Jag kallar det för "en grund till" för jag begränsar projektet till att bara innehålla statisk information som presenteras. I framtiden vill jag lägga in interaktiva delar för att få portfolion att sticka ut, men det finns det inte tid till i detta projektet samt att det sträcker sig utanför vad denna kursen lär ut.
-Det ska finnas en startsida, en presentation av mig och en portfolio där jag visar upp saker jag gjort. Den ska vara tvåspråkig(svenska och engelska) då jag inte ser det som en omöjlighet att börja jobba utomlands i framtiden.
-Jag har aldrig jobbat med bootstrap innan så, detta blir också ett bra tillfälle att prova på det.
+Tanken med projektet är att skapa en hemsida till min goda vän Alexander. Han är en mycket duktig fotograf, det är en hobby men han får lite extrajobb och uppdrag ibland.
+Han har haft ett par utställningar och säljer en del motiv som tavlor. Så jag vill göra en hemsida till honom, en portfolio där han kan presentera sig själv och sina verk.
+
+Ett grundkrav jag hade satt redan innan denna uppgiften var påbörjad var att jag skulle göra en riktig hemsida, inget låtsas eller hitte på. Något som faktiskt kan och skulle användas när den var klar.
+Då jag hade svårt att hitta ett lämpligt projekt bestämde jag mig för att göra en portfolio till mig själv. Det var inte så motiverande, men det skulle i alla fall bli en riktig hemsida.
+Detta projektet blir mycket bättre, jag får hjälpa en vän vilket motiverar mig mycket mer än att göra något till mig själv. Jag får fortfarande tillfälle att jobba med bootstrap vilket gynnar mig själv också.
+
+Trots att jag bytte projekt så har jag fortfarande tänkt använda mig av mer eller mindre samma upplägg gällande layout, struktur och tekniker.
+Jag håller den enkelspråkig då denna kommer har lite mer innehåll än vad jag planerade till mitt första projekt.
 
 ## Tekniker
 * html
@@ -17,7 +23,8 @@ Jag har aldrig jobbat med bootstrap innan så, detta blir också ett bra tillfä
 * jQuery
 
 ## Begränsningar
-Jag kommer fokusera på layout, presentation att göra den responsiv och begränsa detaljerna i själva innehållet. Så istället för att lägga tid på att skriva texter som förklarar mina projekt och min egen rpesentation kommer jag lägga in Lore Ipsum på många ställen.
+Jag kommer fokusera på layout, presentation att göra den responsiv och begränsa detaljerna i själva innehållet.
+Jag har fått lite texter och bilder men jag kommer inte lägga mycket energi på att göra dem perfekta. Lägger istället tiden på att göra sidan snygg och strukturera innehållet bra.
 
 ## *Förändra*
 *Lägg gärna till egna rubriker eller förändra strukturen så att den passar ert projekt.*

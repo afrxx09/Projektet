@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lans="sv">
+<html lang="sv">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Portfolio">
         <meta name="author" content="Andreas Fridlund">
 
-        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" />
+        <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" />
         <link rel="stylesheet" href="css/style.css" />
         
         <link href='http://fonts.googleapis.com/css?family=Share+Tech' rel='stylesheet' type='text/css'>
@@ -17,43 +18,132 @@
         <script src="js/respond.min.js"></script>
         <![endif]-->
         
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="Images/favicons/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="Images/favicons/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="Images/favicons/assets/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="Images/favicons/apple-touch-icon-57-precomposed.png">
-        <link rel="shortcut icon" href="Images/favicons/favicon.png">
         
-        <title>Andreas Portfolio</title>
+        <title>Alexander Hall</title>
     </head>
     <body>
-        <div id="wrap">
-            <div id="head">
-                <div id="logo-container"></div>
-                <div id="nav">
-                    <ul>
-                        <li>Start</li>
-                        <li>Nav1</li>
-                        <li>Nav2</li>
+        
+        <div id="nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Brand</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Start</a></li>
+                        <li><a href="#">Profil</a></li>
+                        <li><a href="#">Tavlor</a></li>
+                        <li><a href="#">Beställa</a></li>
                     </ul>
                 </div>
             </div>
-            
-            <div id="main">
-                <div id="slider">
-                    
-                </div>
-                <div id="content">
-                    
-                    
-                </div>
-            </div>
-            <div id="footer">
-                
+        </div>
+        
+        <div id="header" class="hidden-xs">
+            <div class="container">
+                <h1>Alexander Hall</h1>
             </div>
         </div>
         
+        <!-- MainContent -->
+        <div id="wrap">
+            <div class="container">
+                <!--
+                <div class="row">
+                    <div class="col-12 hidden-xs">
+                        <div id="slider" class="nivoSlider">
+                            <img src="images/slider/1.jpg" alt="" />
+                            <img src="images/slider/2.jpg" alt="" />
+                            <img src="images/slider/3.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+                -->
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="asd">
+                            <p>col 1</p>
+                            <p>col 1</p>
+                            <p>col 1</p>
+                            <p>col 1</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="asd">
+                            <p>col 1</p>
+                            <p>col 1</p>
+                            <p>col 1</p>
+                            <p>col 1</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="asd">
+                            <p>col 1</p>
+                            <p>col 1</p>
+                            <p>col 1</p>
+                            <p>col 1</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="asd">
+                            <p>col 1</p>
+                            <p>col 1</p>
+                            <p>col 1</p>
+                            <p>col 1</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="asd">
+                            <p>col 1</p>
+                            <p>col 1</p>
+                            <p>col 1</p>
+                            <p>col 1</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="asd">
+                            <p>col 1</p>
+                            <p>col 1</p>
+                            <p>col 1</p>
+                            <p>col 1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div id="footer">
+            <div class="container">
+                <p>Footer.</p>
+            </div>
+        </div>
         
         <script src="js/jquery-1.10.2.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('#slider').nivoSlider({
+                    effect: 'slideInRight',
+                    animSpeed: 500,
+                    pauseTime: 3000,
+                    startSlide: 0,
+                    directionNav: true,
+                    controlNav: false,
+                    controlNavThumbs: false,
+                    pauseOnHover: true,
+                    manualAdvance: false,
+                    prevText: 'Prev',
+                    nextText: 'Next',
+                    randomStart: false
+                });
+            });
+        </script>
     </body>
 </html>

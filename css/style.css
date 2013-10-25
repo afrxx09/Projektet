@@ -1,7 +1,33 @@
 body{
-    font-family: 'Titillium Web', sans-serif;
+    background-color:#222;
 }
 
-#nav ul li a {
-    font-family: 'Share Tech', sans-serif;
+#header{
+    background-image:url('../images/header.jpg');
+    background-repeat:no-repeat;
+    background-position:center; 
+    height:300px;
+}
+
+#nav{
+    background-color:#9AE948;
+    border-top:1px solid #222;
+    border-bottom:1px solid #222;
+    margin-bottom:0;
+}
+
+#wrap{
+    padding-top:75px;
+    background-color:#f6f6f6;
+}
+
+#slider{
+    height:300px;
+}
+
+.asd{
+    background-color:#f00;
+    margin:5px;
+    padding:10px;
+    border-radius:4px;
 }
