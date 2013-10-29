@@ -42,8 +42,8 @@
     margin-top:0;
 }
 
-.gallery img{
+.gallery .img-cont{
     width:25%;
     float:left;
-    margin:10px;
+    padding:10px;
 }

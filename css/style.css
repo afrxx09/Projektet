@@ -1,11 +1,3 @@
-/*
-BF1F2C röd
-344859 mörk
-F2F2F2 ljus
-3C6673 d-teal
-80A49A l-teal
-*/
-
 /*-- GENERAL --*/
 body{
     background-color:#222;
@@ -97,7 +89,7 @@ a:hover{
     font-family: 'Share Tech', sans-serif;
 }
 
-#nav button{
+#nav button:focus{
     background-color:#3C6673;
     border-color:#fff;
     outline:none;
@@ -146,7 +138,7 @@ a:hover{
 /*-- CONTENT --*/
 #wrap{
     padding:20px 0;
-    background-color:#F2F2F2;
+    background-color:#F6F6F6;
 }
 
 .tilted{

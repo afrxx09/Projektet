@@ -30,3 +30,7 @@
     background-color:#3C6673;
     color:#fff;
 }
+
+#form-submitted{
+    display:none;
+}
