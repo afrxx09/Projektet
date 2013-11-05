@@ -172,11 +172,11 @@ a:hover{
     transform: rotate(-2deg);
 }
 
-#wrap .asd{
+#wrap .puff{
     padding:10px;
 }
 
-#wrap .asd h3{
+#wrap .puff h3{
     text-align:center;
     border-bottom:1px solid #BF1F2C;
 }
@@ -185,7 +185,7 @@ a:hover{
 #footer{
     color:#fff;
     font-size:0.9em;
-    padding:20px;
+    padding:20px 0;
 }
 
 #footer .socialmedia img{
